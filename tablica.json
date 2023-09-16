@@ -1,0 +1,39 @@
+[
+    {
+        "id": "1",
+        "nazwa_samochodu": "Mercedes",
+        "model_samochodu": "BMW",
+        "rok_produkcji": 2015,
+        "typ_paliwa": "diesel",
+        "ilosc_drzwi": "5",
+        "adres_zdjecia": "https://arrjsoncarscs.blob.core.windows.net/samochody/merc.jfif" 
+
+    },
+    {
+        "id": "2",
+        "nazwa_samochodu": "Opel",
+        "model_samochodu": "Astra",
+        "rok_produkcji": 2018,
+        "typ_paliwa": "benzyna",
+        "ilosc_drzwi": "5",
+        "adres_zdjecia": "https://arrjsoncarscs.blob.core.windows.net/samochody/opel.jfif"
+    },
+    {
+        "id": "3",
+        "nazwa_samochodu": "Kia",
+        "model_samochodu": "Sportage",
+        "rok_produkcji": 2023,
+        "typ_paliwa": "benzyna",
+        "ilosc_drzwi": "5",
+        "adres_zdjecia": "https://arrjsoncarscs.blob.core.windows.net/samochody/kia.jfif"
+    },
+    {
+        "id": "4",
+        "nazwa_samochodu": "Toyota",
+        "model_samochodu": "Yaris",
+        "rok_produkcji": 2020,
+        "typ_paliwa": "gaz",
+        "ilosc_drzwi": "3",
+        "adres_zdjecia": "https://arrjsoncarscs.blob.core.windows.net/samochody/yaris.jfif"
+    }
+]
