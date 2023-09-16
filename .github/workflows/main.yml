@@ -16,7 +16,7 @@ jobs:
       uses: action/checkout@v3
 
     - name: Synchronizacja plików  do serwera FTP
-      uses: SamKirland/FTP-Deploy-Action@v4.3.4
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: 138.91.108.8
         username: ${{ secrets.ftp_username }}
