@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Załadowanie kodu z GitHub
-      uses: action/checkout@v3
+      uses: actions/checkout@v3
 
     - name: Synchronizacja plików  do serwera FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
