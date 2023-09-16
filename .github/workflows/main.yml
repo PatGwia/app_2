@@ -1,1 +1,25 @@
-name:Main
+name: Main
+on: 
+  push:
+    branches:
+    - main
+  pull_request:
+    branches:
+    - main
+  workflow_dispatch:
+jobs:
+  web-deploy:
+    name: Wdrożenie do FTP
+    runs-on: ubuntu-latest
+    steps:
+    - name: Załadowanie kodu z GitHub
+      uses: action/checkout@v3
+
+    - name: Synchronizacja plików  do serwera FTP
+      uses: SamKirland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: 138.91.108.8
+        username: ${{ secrets.ftp_username }}
+        password: ${{ secrets.ftp_password }}
+  
+    
